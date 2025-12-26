@@ -59,4 +59,54 @@ export const tasks = [
     en: "Check if everything you post today is 'True, Kind, and Necessary'.",
     pt: "Verifique se tudo o que você posta hoje é 'Verdadeiro, Gentil e Necessário'."
   }
+  ,
+  {
+    id: 11,
+    tr: "Meydan Okuma: Bir tartışmayı kırmadan bitirmek için nazik bir cümle kur.",
+    en: "Challenge: Come up with a polite sentence to end an argument without hurting feelings.",
+    pt: "Desafio: Crie uma frase educada para encerrar uma discussão sem ferir sentimentos."
+  },
+  {
+    id: 12,
+    tr: "Pratik: Aynı mesajı önce kaba, sonra nötr, en son da çok kibar bir dille kağıda yaz.",
+    en: "Practice: Write the same message in three versions: rude, neutral, and very polite.",
+    pt: "Prática: Escreva a mesma mensagem em três versões: rude, neutra e muito educada."
+  },
+  {
+    id: 13,
+    tr: "Görev: Bu hafta sosyal medyada sadece pozitif dil kullan ve sınıf için bir ekran görüntüsü al!",
+    en: "Task: Use only positive language on social media this week and take a screenshot for class!",
+    pt: "Tarefa: Use apenas linguagem positiva nas redes sociais esta semana e tire um print para a aula!"
+  },
+  {
+    id: 14,
+    tr: "Dedektiflik: İnternette gördüğün şaşırtıcı bir haber başlığının 'Gerçek mi, Sahte mi' olduğunu araştır.",
+    en: "Detective: Research a shocking news headline you see online to see if it's 'Real or Fake'.",
+    pt: "Detetive: Pesquise uma manchete chocante que você vê online para ver se é 'Real ou Falso'."
+  }
 ];
+// ... eski görevlerin devamı ...
+  {
+    id: 11,
+    tr: "Meydan Okuma: Bir tartışmayı kırmadan bitirmek için nazik bir cümle kur.",
+    en: "Challenge: Come up with a polite sentence to end an argument without hurting feelings.",
+    pt: "Desafio: Crie uma frase educada para encerrar uma discussão sem ferir sentimentos."
+  },
+  {
+    id: 12,
+    tr: "Pratik: Aynı mesajı önce kaba, sonra nötr, en son da çok kibar bir dille kağıda yaz.",
+    en: "Practice: Write the same message in three versions: rude, neutral, and very polite.",
+    pt: "Prática: Escreva a mesma mensagem em três versões: rude, neutra e muito educada."
+  },
+  {
+    id: 13,
+    tr: "Görev: Bu hafta sosyal medyada sadece pozitif dil kullan ve sınıf için bir ekran görüntüsü al!",
+    en: "Task: Use only positive language on social media this week and take a screenshot for class!",
+    pt: "Tarefa: Use apenas linguagem positiva nas redes sociais esta semana e tire um print para a aula!"
+  },
+  {
+    id: 14,
+    tr: "Dedektiflik: İnternette gördüğün şaşırtıcı bir haber başlığının 'Gerçek mi, Sahte mi' olduğunu araştır.",
+    en: "Detective: Research a shocking news headline you see online to see if it's 'Real or Fake'.",
+    pt: "Detetive: Pesquise uma manchete chocante que você vê online para ver se é 'Real ou Falso'."
+  }
