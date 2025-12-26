@@ -109,4 +109,4 @@ export const tasks = [
     tr: "Dedektiflik: İnternette gördüğün şaşırtıcı bir haber başlığının 'Gerçek mi, Sahte mi' olduğunu araştır.",
     en: "Detective: Research a shocking news headline you see online to see if it's 'Real or Fake'.",
     pt: "Detetive: Pesquise uma manchete chocante que você vê online para ver se é 'Real ou Falso'."
-  }
+  }  git rm --cached node_modules/.cache/gh-pages/https!github.com!eliffedam-blip!netiquette-compass.git
