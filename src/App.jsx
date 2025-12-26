@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import confetti from 'canvas-confetti'
 import './App.css'
-import { tasks } from './tasks'
+import './i18n'
+import { useTranslation } from 'react-i18next'
+import Quiz from './Quiz'
 
 function App() {
   const [currentTask, setCurrentTask] = useState(null);
-  const [lang, setLang] = useState('tr'); // Varsayılan dil Türkçe
+  const { t, i18n } = useTranslation()
+  const [lang, setLang] = useState(i18n.language || 'tr');
+  const [page, setPage] = useState('task'); // 'task' veya 'quiz'
 
   // Rastgele görev seçme fonksiyonu
   const getRandomTask = () => {
@@ -19,43 +23,56 @@ function App() {
     setCurrentTask(tasks[randomIndex]);
   }
 
-  // Arayüz metinleri için basit bir sözlük
-  const uiText = {
-    tr: { title: "Dijital Nezaket Pusulası", btn: "Bana Bir Görev Ver!", subtitle: "Netiquette Matters Projesi" },
-    en: { title: "Digital Kindness Compass", btn: "Give Me a Task!", subtitle: "Netiquette Matters Project" },
-    pt: { title: "Bússola da Gentileza Digital", btn: "Dê-me uma Tarefa!", subtitle: "Projeto Netiquette Matters" }
-  };
+  // UI texts come from i18n via `t`.
+  const uiText = t('app', { returnObjects: true })
+  const tasks = t('tasks', { returnObjects: true })
+  const december = t('december', { returnObjects: true })
 
   return (
     <div className="container">
-      {/* Logo Alanı */}
       <img src="/logo.svg" alt="Netiquette Matters Logo" style={{ maxWidth: '150px', marginBottom: '20px' }} />
-      {/* Dil Seçimi Butonları */}
+
       <div className="lang-switcher">
-        <button onClick={() => setLang('tr')} className={lang === 'tr' ? 'active' : ''}>🇹🇷 TR</button>
-        <button onClick={() => setLang('en')} className={lang === 'en' ? 'active' : ''}>🇬🇧 EN</button>
-        <button onClick={() => setLang('pt')} className={lang === 'pt' ? 'active' : ''}>🇵🇹 PT</button>
+        <button onClick={() => { i18n.changeLanguage('tr'); setLang('tr') }} className={lang === 'tr' ? 'active' : ''}>🇹🇷 TR</button>
+        <button onClick={() => { i18n.changeLanguage('en'); setLang('en') }} className={lang === 'en' ? 'active' : ''}>🇬🇧 EN</button>
+        <button onClick={() => { i18n.changeLanguage('pt'); setLang('pt') }} className={lang === 'pt' ? 'active' : ''}>🇵🇹 PT</button>
       </div>
 
-      <h1>{uiText[lang].title}</h1>
-      <p className="subtitle">{uiText[lang].subtitle}</p>
+      <h1>{uiText.title}</h1>
+      <p className="subtitle">{uiText.subtitle}</p>
+
+      <div className="tabs">
+        <button onClick={() => setPage('task')} className={page === 'task' ? 'active' : ''}>{uiText[lang].taskTab}</button>
+        <button onClick={() => setPage('quiz')} className={page === 'quiz' ? 'active' : ''}>{uiText[lang].quizTab}</button>
+        <button onClick={() => setPage('program')} className={page === 'program' ? 'active' : ''}>{uiText[lang].programTab}</button>
+      </div>
 
       <div className="card">
-        {currentTask ? (
-          <p className="task-text">
-            {currentTask[lang]} 
-          </p>
+        {page === 'task' ? (
+          <>
+            {currentTask ? (
+              <p className="task-text">{currentTask}</p>
+            ) : (
+              <p className="placeholder">{uiText.placeholder}</p>
+            )}
+            <button className="action-btn" onClick={() => { const randomIndex = Math.floor(Math.random() * tasks.length); confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } }); setCurrentTask(tasks[randomIndex]) }}>{uiText.btn}</button>
+          </>
+        ) : page === 'quiz' ? (
+          <Quiz />
         ) : (
-          <p className="placeholder">
-            {lang === 'tr' ? "Bugün dünyaya nasıl bir iyilik yayacaksın?" : 
-             lang === 'en' ? "How will you spread kindness today?" : 
-             "Como você espalhará gentileza hoje?"}
-          </p>
+          <div className="program">
+            <h2>{december.title}</h2>
+            <p className="subtitle">{december.goal}</p>
+            {december.weeks.map(w => (
+              <div key={w.week} style={{ textAlign: 'left', margin: '12px 0' }}>
+                <h4>{(lang==='tr' ? `Hafta ${w.week}: ` : lang==='en' ? `Week ${w.week}: ` : `Semana ${w.week}: `) + w.title}</h4>
+                <ul>
+                  {w.activities.map((a,i) => <li key={i}>{a}</li>)}
+                </ul>
+              </div>
+            ))}
+          </div>
         )}
-        
-        <button className="action-btn" onClick={getRandomTask}>
-          {uiText[lang].btn}
-        </button>
       </div>
     </div>
   )

@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Bússola da Gentileza Digital",
+    "subtitle": "Projeto Netiquette Matters",
+    "btn": "Dê-me uma Tarefa!",
+    "taskTab": "Tarefa do Dia",
+    "quizTab": "Quiz da Gentileza",
+    "programTab": "Programa",
+    "placeholder": "Como você espalhará gentileza hoje?"
+  },
+  "tasks": [
+    "Responda educada e construtivamente a um comentário negativo nas redes sociais hoje.",
+    "Deixe um comentário encorajador no projeto ou postagem de um desconhecido.",
+    "Reduza o tempo de tela em 30 minutos hoje e converse com um amigo pessoalmente.",
+    "Converse com um amigo sobre por que compartilhar fotos sem permissão é errado.",
+    "Use apenas emojis positivos e de apoio nos grupos de WhatsApp hoje.",
+    "Envie uma mensagem digital de agradecimento a um ex-professor ou mentor.",
+    "Parabenize a equipe perdedora ('Bom jogo!') no jogo online que você jogar hoje.",
+    "Compartilhe uma conta educacional com informações úteis em sua história nas redes sociais.",
+    "Se vir um amigo sofrendo cyberbullying, não fique calado e apoie-o.",
+    "Verifique se tudo o que você posta hoje é 'Verdadeiro, Gentil e Necessário'."
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "title": "O que você faz quando enfrenta raiva em uma discussão?",
+        "choices": ["Respondo com a mesma severidade.", "Espero um pouco e escrevo uma resposta calma.", "Ignoro e saio da discussão."],
+        "correct": 1
+      },
+      {
+        "title": "Você percebe que um amigo compartilhou informações incorretas. O que você faz?",
+        "choices": ["Corrijo sarcasticamente.", "Corrijo gentilmente com evidências.", "Fico em silêncio."],
+        "correct": 1
+      },
+      {
+        "title": "Você quer deixar um comentário positivo em uma postagem anônima. O que você escreve?",
+        "choices": ["Não concordo e isso é bobagem.", "Parabéns, achei útil.", "Não me importo."],
+        "correct": 1
+      },
+      {
+        "title": "Como você se comporta quando alguém comete um erro num grupo de chat?",
+        "choices": ["Imediatamente zombo.", "Gentilmente corrijo e ofereço ajuda.", "Compartilho capturas para zombar."],
+        "correct": 1
+      },
+      {
+        "title": "O que você deve verificar antes de postar?",
+        "choices": ["Apenas se é engraçado.", "Sua veracidade, gentileza e necessidade.", "Se vai tornar o autor famoso."],
+        "correct": 1
+      },
+      {
+        "title": "Você quer apoiar alguém online; qual é a melhor abordagem?",
+        "choices": ["Apoio com julgamentos gerais.", "Compartilho minha experiência e mostro empatia.", "Enviarei uma mensagem curta e superficial."],
+        "correct": 1
+      },
+      {
+        "title": "O que deve ser feito para proteger a privacidade de alguém?",
+        "choices": ["Evitar compartilhar fotos e informações sem permissão.", "Marcá-los publicamente em todos os lugares.", "Discutir informações pessoais publicamente."],
+        "correct": 0
+      },
+      {
+        "title": "Se você vir informações que não sabe se são verdadeiras, o que faz?",
+        "choices": ["Compartilho imediatamente.", "Verifico a fonte e confirmo se necessário.", "Zombo disso."],
+        "correct": 1
+      },
+      {
+        "title": "Qual é seu primeiro passo se testemunhar cyberbullying?",
+        "choices": ["Tiro capturas e compartilho amplamente.", "Apoio a vítima e denuncio às autoridades se necessário.", "Participo."],
+        "correct": 1
+      },
+      {
+        "title": "Se seus argumentos não forem sólidos num debate, o que deve fazer?",
+        "choices": ["Admito o erro e estou aberto a aprender.", "Continuo sendo agressivo.", "Desvio o assunto."],
+        "correct": 0
+      },
+      {
+        "title": "Como criar um perfil gentil numa nova rede social?",
+        "choices": ["Uso frases rudes e provocativas.", "Uso linguagem respeitosa e descrições corretas.", "Imito a identidade de outra pessoa."],
+        "correct": 1
+      },
+      {
+        "title": "Qual configuração deve verificar para respeitar a privacidade?",
+        "choices": ["Configurações de privacidade que mostram quem pode ver minha conta.", "Configurações aleatórias de notificações.", "Escolha da cor do tema."],
+        "correct": 0
+      },
+      {
+        "title": "Quando deve sair de uma discussão acalorada?",
+        "choices": ["Quando ataques pessoais começam.", "Quando quero que se aprofunde mais.", "Continuar discutindo sempre."],
+        "correct": 0
+      },
+      {
+        "title": "O que considerar ao agradecer alguém online?",
+        "choices": ["Seja sincero e específico (diga por quê).", "Apenas enviar um emoji é suficiente.", "Transformar o agradecimento em zombaria."],
+        "correct": 0
+      },
+      {
+        "title": "Por que checar a fonte é importante antes de compartilhar online?",
+        "choices": ["Para evitar a disseminação de desinformação.", "Para conseguir mais curtidas.", "Para esquecer a fonte."],
+        "correct": 0
+      }
+    ]
+  },
+  "december": {
+    "title": "DEZEMBRO: Linguagem e Tom Digitais",
+    "goal": "Compreender a importância da linguagem respeitosa online.",
+    "weeks": [
+      {
+        "week": 1,
+        "title": "Exemplos de tom e estilo na comunicação digital",
+        "activities": [
+          "Workshop: Escrever a mesma mensagem em três versões – rude, neutra e educada.",
+          "Trabalho em grupo: “Maneiras de terminar um argumento educadamente.”"
+        ]
+      },
+      {
+        "week": 2,
+        "title": "Linguagem positiva e verificação",
+        "activities": [
+          "Tarefa da semana: Alunos usam linguagem positiva nas redes sociais por uma semana e trazem capturas de tela para a aula.",
+          "Introdução à verificação de fatos e métodos de verificação de informação.",
+          "Workshop: “Real ou falso?” – Alunos analisam manchetes de notícias de exemplo e discutem."
+        ]
+      }
+    ]
+  }
+  ,
+  "app": {
+    "quizFinished": "Quiz Concluído",
+    "correctAnswers": "Respostas corretas: {{count}}",
+    "restart": "Reiniciar"
+  }
+}

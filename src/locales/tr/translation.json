@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Dijital Nezaket Pusulası",
+    "subtitle": "Netiquette Matters Projesi",
+    "btn": "Bana Bir Görev Ver!",
+    "taskTab": "Günün Görevi",
+    "quizTab": "Nezaket Testi",
+    "programTab": "Program",
+    "placeholder": "Bugün dünyaya nasıl bir iyilik yayacaksın?"
+  },
+  "tasks": [
+    "Bugün sosyal medyada gördüğün olumsuz bir yoruma, nazik ve yapıcı bir dille cevap ver.",
+    "Hiç tanımadığın birinin projesine veya paylaşımına teşvik edici bir yorum bırak.",
+    "Bugün ekran süreni 30 dakika azalt ve o sürede bir arkadaşınla yüz yüze konuş.",
+    "İzinsiz fotoğraf paylaşmanın neden yanlış olduğu hakkında bir arkadaşınla sohbet et.",
+    "WhatsApp gruplarında bugün sadece pozitif ve destekleyici emojiler kullan.",
+    "Eski bir öğretmenine veya mentora dijital bir teşekkür mesajı gönder.",
+    "Bugün oynadığın online oyunda, kaybeden takımı tebrik et ('Good game!').",
+    "Sosyal medyada faydalı bilgi paylaşan bir eğitim hesabını hikayende paylaş.",
+    "Bir arkadaşının siber zorbalığa uğradığını görürsen, sessiz kalma ve ona destek ol.",
+    "Bugün paylaştığın her şeyin 'Gerçek, Nazik ve Gerekli' olup olmadığını kontrol et."
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "title": "Bir tartışmada öfkeyle karşılaştığında ne yaparsın?",
+        "choices": ["Hemen aynı sertlikle karşılık veririm.", "Bir süre bekler, sakin bir cevap yazarım.", "Görmezden gelirim ve tartışmadan çıkarım."] ,
+        "correct": 1
+      },
+      {
+        "title": "Bir arkadaşının yanlış bir bilgi paylaştığını fark ettin. Ne yaparsın?",
+        "choices": ["Alay ederek düzeltirim.", "Nazikçe ve kanıt göstererek düzeltirim.", "Sessiz kalırım."],
+        "correct": 1
+      },
+      {
+        "title": "Anonim bir gönderiye olumlu bir yorum bırakmak istiyorsun. Ne yazarsın?",
+        "choices": ["Seninle aynı fikirde değilim ve saçma.", "Emeğine sağlık, faydalı buldum.", "Hiç umrumda değil."],
+        "correct": 1
+      },
+      {
+        "title": "Bir sohbet grubunda biri hata yaptığında nasıl davranırsın?",
+        "choices": ["Hemen alay ederim.", "Nazikçe düzeltir ve yardım öneririm.", "Görüntüyü alıntılar paylaşırım."],
+        "correct": 1
+      },
+      {
+        "title": "Paylaşım yapmadan önce neyi kontrol etmelisin?",
+        "choices": ["Sadece eğlenceli olup olmadığını.", "Gerçekliği, nezaketini ve gerekliliğini.", "Paylaşan kişiyi ünlü yapıp yapmayacağını."],
+        "correct": 1
+      },
+      {
+        "title": "Birine çevrimiçi destek vermek istiyorsun; en iyi yaklaşım nedir?",
+        "choices": ["Genelleyici yargılarla destek olurum.", "Kendi deneyimimi paylaşır, empati gösteririm.", "Kısa ve yüzeysel bir mesaj gönderirim."],
+        "correct": 1
+      },
+      {
+        "title": "Birinin gizliliğini korumak için ne yapılmalı?",
+        "choices": ["İzinsiz fotoğraf ve bilgileri paylaşmamak.", "Herkese açık etiketlemek.", "Kişisel bilgileri alenen tartışmak."],
+        "correct": 0
+      },
+      {
+        "title": "Bir gönderide bilmediğin bir bilgi varsa ne yaparsın?",
+        "choices": ["Hemen paylaşırım.", "Kaynağını kontrol ederim ve gerekirse doğrularım.", "Dalga geçerim."],
+        "correct": 1
+      },
+      {
+        "title": "Siber zorbalık görürsen ilk adımın ne olur?",
+        "choices": ["Görüntü alıp paylaşırım.", "Hedefe destek veririm ve gerekirse yetkiliye bildiririm.", "Katılmaya başlarım."],
+        "correct": 1
+      },
+      {
+        "title": "Bir tartışmada argümanların sağlam değilse ne yapmalısın?",
+        "choices": ["Hata yaptığımı kabul eder, öğrenmeye açık olurum.", "Saldırganlığa devam ederim.", "Konuyu saptırırım."],
+        "correct": 0
+      },
+      {
+        "title": "Yeni bir sosyal ağda nasıl nazik bir profil oluşturursun?",
+        "choices": ["Kaba ve provokatif ifadeler kullanırım.", "Saygılı bir dil kullanırım ve açıklamalarım doğru olur.", "Başkasının kimliğini taklit ederim."],
+        "correct": 1
+      },
+      {
+        "title": "Gizliliğe saygı göstermek için hangi ayarı kontrol etmelisin?",
+        "choices": ["Hesabımın kimler tarafından görüleceğini gösteren gizlilik ayarları.", "Rastgele bildirim ayarları.", "Tema renk seçimi."],
+        "correct": 0
+      },
+      {
+        "title": "Tartışma alevlenirse ne zaman ortamdan ayrılmalısın?",
+        "choices": ["Kişisel saldırılar başladığında.", "Konunun daha da derinleşmesini istediğimde.", "Her zaman tartışmaya devam etmek için."],
+        "correct": 0
+      },
+      {
+        "title": "Birine çevrimiçi teşekkür ederken nelere dikkat etmelisin?",
+        "choices": ["Samimi ve spesifik olmak (neden teşekkür ettiğini söylemek).", "Sadece emoji göndermek yeterlidir.", "Teşekkürü alaya dönüştürmek."],
+        "correct": 0
+      },
+      {
+        "title": "Çevrimiçi bir içeriği paylaşmadan önce neden kaynak kontrolü önemlidir?",
+        "choices": ["Yanlış bilgilerin yayılmasını önlemek için.", "Daha fazla beğeni almak için.", "Kaynağı unutmak için."],
+        "correct": 0
+      }
+    ]
+  },
+  "december": {
+    "title": "DECEMBER: Dijital Dil ve Ton",
+    "goal": "Çevrimiçi saygılı dilin önemini anlamak.",
+    "weeks": [
+      {
+        "week": 1,
+        "title": "Ton ve üslup örnekleri",
+        "activities": [
+          "Workshop: Aynı mesajın üç versiyonunu yazma – kaba, nötr, nazik.",
+          "Grup çalışması: “Bir tartışmayı nazikçe sonlandırma yolları”."
+        ]
+      },
+      {
+        "week": 2,
+        "title": "Pozitif dil ve doğrulama",
+        "activities": [
+          "Hafta görevi: Öğrenciler sosyal medyada bir hafta boyunca pozitif dil kullanır ve ekran görüntülerini sınıfa getirir.",
+          "Doğrulama tanıtımı: Haber doğrulama ve bilgi kontrolü yöntemleri.",
+          "Workshop: “Gerçek mi, sahte mi?” – örnek başlıkları analiz etme ve tartışma."
+        ]
+      }
+    ]
+  }
+  ,
+  "app": {
+    "quizFinished": "Test Tamamlandı",
+    "correctAnswers": "Doğru cevap sayısı: {{count}}",
+    "restart": "Tekrar"
+  }
+}
